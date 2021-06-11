@@ -23,7 +23,7 @@ const CreateMeow = () => {
         <form>
             <textarea  value={textArea} onChange={(e) => setTextArea(e.target.value)}></textarea>
             <input type="text" value={hashtag} onChange={(e) => setHashtag(e.target.value)}></input>
-            <button type="submitting"  onSubmit={handleSubmit}></button>
+            <button onSubmit={handleSubmit}> submit </button>
             
         </form>
     )
